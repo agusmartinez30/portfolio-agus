@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { CARDS_PROJECTS } from "@base/data/data";
+import { Link } from "react-router-dom";
 import {
   Heading,
   Box,
@@ -9,20 +10,25 @@ import {
   Grid,
   Button,
 } from "@chakra-ui/react";
-import { CARDS_PROJECTS } from "../tools/data";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+export interface ProjectsInterface {}
 
-const Projects = () => {
+const Projects: React.FC<ProjectsInterface> = () => {
   const [cards, setCards] = useState(CARDS_PROJECTS);
 
   return (
     <Box paddingY={4}>
       <Text fontSize="32px" fontWeight={600} color="#03001C">
-        Proyectos que he creado.
+        Mira todo mis proyectos.
       </Text>
+	  <Box  display="flex" justifyContent={"center"} gap={4}>
+	  <Text fontSize={"xl"} _hover={{color: "#86EE60"}}>All</Text>
+		<Text fontSize={"xl"} _hover={{color: "#86EE60"}}>Web</Text>
+		<Text  fontSize="xl" _hover={{color: "#86EE60"}}>Design</Text>
+	  </Box>
       <Grid templateColumns="repeat(3, 1fr)" gap={6} paddingY={6}>
-        {cards.slice(0, 3).map((card) => (
-          <Link to={`projects/${card.url}`}>
+        {cards.map((card, id) => (
+          <Link to={card.url} key={id}>
             <Card
               h={"600px"}
               display="grid"
@@ -49,13 +55,6 @@ const Projects = () => {
           </Link>
         ))}
       </Grid>
-      <Box display={"grid"} placeItems="center">
-        <Link to="/projects">
-          <Button width={"250px"} border={"1px"} bg="transparent">
-            Ver todos
-          </Button>
-        </Link>
-      </Box>
     </Box>
   );
 };

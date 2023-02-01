@@ -3,7 +3,7 @@ export interface ICard {
     descripcion?: string;
     imagen: string;
     url: string;
-    tecnologias?: array
+    stack?: object[]
     enlaces?: string
 
   }

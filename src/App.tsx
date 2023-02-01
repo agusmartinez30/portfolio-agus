@@ -1,11 +1,10 @@
 import { Container } from "@chakra-ui/react";
+
+import { Home, ProjectDetail, Projects } from "./pages";
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import DetailProjects from "./components/DetailProjects";
-import Header from "./components/Header";
-import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import ProjectsPage from "./pages/ProjectsPage";
 
 function App() {
   return (
@@ -14,8 +13,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/projects" element={<ProjectsPage />}></Route>
-          <Route path="/projects/:key" element={<DetailProjects />}></Route>
+          <Route path="/projects" element={<Projects />}></Route>
+          <Route path="/projects/:key" element={<ProjectDetail />}></Route>
         </Routes>
       </BrowserRouter>
     </Container>

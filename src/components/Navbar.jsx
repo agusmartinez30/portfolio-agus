@@ -1,8 +1,9 @@
-import { Heading, Text, Box } from "@chakra-ui/react";
+import { Heading, Text, Box, Image } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import logotipo from "../components/logo.png";
 
 const Navbar = () => {
-  const logoTipo = "<AgusDev/>";
+  // const logoTipo = "<AgusDev/>";
 
   return (
     <Heading
@@ -13,7 +14,7 @@ const Navbar = () => {
       paddingY={6}
     >
       <Link to="/">
-        <Text fontSize="26px">{logoTipo}</Text>
+      <Image width={"150px"}  objectFit="contain" src={logotipo} />
       </Link>
       <Box>
         <Box as="ul" display="flex" listStyleType={"none"} gap={4}>
