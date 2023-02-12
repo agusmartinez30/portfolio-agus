@@ -12,17 +12,19 @@ const Navbar = () => {
       alignItems="center"
       justifyContent={"space-between"}
       paddingY={6}
+      borderBottom="1px solid #CBD5E0"
     >
       <Link to="/">
-      <Image width={"150px"}  objectFit="contain" src={logotipo} />
+        <Image width={"150px"} objectFit="contain" src={logotipo} />
       </Link>
       <Box>
         <Box as="ul" display="flex" listStyleType={"none"} gap={4}>
           <li>
             <Link to="projects">
               <Text
-                fontSize={"20px"}
+                fontSize={"16px"}
                 fontWeight={500}
+                textTransform="uppercase"
                 _hover={{ color: "#86EE60" }}
               >
                 {" "}
@@ -33,7 +35,8 @@ const Navbar = () => {
           <li>
             <Link to="projects">
               <Text
-                fontSize={"20px"}
+                fontSize={"16px"}
+                textTransform="uppercase"
                 fontWeight={500}
                 _hover={{ color: "#86EE60" }}
               >
@@ -55,8 +58,8 @@ const Navbar = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="icon icon-tabler icon-tabler-brand-github"
-                width="30"
-                height="30"
+                width="25"
+                height="25"
                 viewBox="0 0 24 24"
                 stroke-width="2"
                 stroke="currentColor"
@@ -79,8 +82,8 @@ const Navbar = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="icon icon-tabler icon-tabler-brand-linkedin"
-                width="30"
-                height="30"
+                width="25"
+                height="25"
                 viewBox="0 0 24 24"
                 stroke-width="2"
                 stroke="currentColor"

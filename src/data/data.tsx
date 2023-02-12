@@ -1,8 +1,6 @@
-
 import { ICard, ITechnologies } from "../types";
 import bgClima from "../assets/images/bgClima.png";
 import bgKeyGame from "../assets/images/bgKeyGame.png";
-
 
 export const CARDS_PROJECTS: Array<ICard> = [
   {
@@ -12,40 +10,68 @@ export const CARDS_PROJECTS: Array<ICard> = [
     url: "weather-app",
     stack: [
       {
-        imagen: "url/react",
+        imagen:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
       },
       {
-        imagen: "url/javscript",
-      }
+        imagen:
+          "https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png",
+      },
+      {
+        imagen: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
+      },
+      {
+        imagen: "https://sweetalert2.github.io/images/SweetAlert2.png",
+      },
     ],
-    enlaces: "http://github.com/agusmartinez30",
   },
   {
-    titulo: "Juego de llaves",
+    titulo: "Keygame",
     imagen: `${bgKeyGame}`,
-    descripcion: "Aplicacion que consume una api de whateveropen",
+    descripcion:
+      "Este es un juego que consiste en adivinar la llave ganadora :D ",
     url: "keymaster",
+    enlaces: {
+      deploy: "https://keyter.netlify.app/",
+      repo: "https://github.com/agusmartinez30/keyter",
+    },
     stack: [
       {
-        imagen: "url/react",
+        imagen:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
       },
       {
-        imagen: "url/javscript",
-      }
+        imagen:
+          "https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png",
+      },
+      {
+        imagen: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
+      },
+      {
+        imagen: "https://sweetalert2.github.io/images/SweetAlert2.png",
+      },
     ],
   },
   {
-    titulo: "Lista de tareas",
-    descripcion: "Aplicacion que consume una api de whateveropen",
-    imagen: `${bgClima}`,
+    titulo: "Rick and Morty app",
+    descripcion: "Un aplicacion para conocer todos los personajes",
+    imagen: "https://wallpapers.com/images/featured/8rc57d4ds44gqzau.jpg",
     url: "lista-de-tareas",
     stack: [
       {
-        imagen: "url/react",
+        imagen:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
       },
       {
-        imagen: "url/javscript",
-      }
+        imagen:
+          "https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png",
+      },
+      {
+        imagen: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
+      },
+      {
+        imagen: "https://sweetalert2.github.io/images/SweetAlert2.png",
+      },
     ],
   },
   {
@@ -55,11 +81,19 @@ export const CARDS_PROJECTS: Array<ICard> = [
     url: "pelix",
     stack: [
       {
-        imagen: "url/react",
+        imagen:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
       },
       {
-        imagen: "url/javscript",
-      }
+        imagen:
+          "https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png",
+      },
+      {
+        imagen: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
+      },
+      {
+        imagen: "https://sweetalert2.github.io/images/SweetAlert2.png",
+      },
     ],
   },
   {
@@ -69,11 +103,19 @@ export const CARDS_PROJECTS: Array<ICard> = [
     url: "rickandmorty",
     stack: [
       {
-        imagen: "url/react",
+        imagen:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
       },
       {
-        imagen: "url/javscript",
-      }
+        imagen:
+          "https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png",
+      },
+      {
+        imagen: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
+      },
+      {
+        imagen: "https://sweetalert2.github.io/images/SweetAlert2.png",
+      },
     ],
   },
   {
@@ -83,11 +125,19 @@ export const CARDS_PROJECTS: Array<ICard> = [
     url: "backar",
     stack: [
       {
-        imagen: "url/react",
+        imagen:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
       },
       {
-        imagen: "url/javscript",
-      }
+        imagen:
+          "https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png",
+      },
+      {
+        imagen: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
+      },
+      {
+        imagen: "https://sweetalert2.github.io/images/SweetAlert2.png",
+      },
     ],
   },
 ];
@@ -119,24 +169,25 @@ export const CARDS_TECHNOLOGIES: Array<ITechnologies> = [
   },
   {
     titulo: "NodeJS",
-    imagen: "https://ih1.redbubble.net/image.1637717834.1604/pp,840x830-pad,1000x1000,f8f8f8.u1.jpg"
+    imagen:
+      "https://ih1.redbubble.net/image.1637717834.1604/pp,840x830-pad,1000x1000,f8f8f8.u1.jpg",
   },
   {
     titulo: "Chakra UI",
-    imagen: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4"  
+    imagen: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
   },
   {
     titulo: "SQL",
-    imagen: "https://w7.pngwing.com/pngs/170/924/png-transparent-microsoft-sql-server-microsoft-azure-sql-database-microsoft-text-logo-microsoft-azure.png"  
+    imagen:
+      "https://w7.pngwing.com/pngs/170/924/png-transparent-microsoft-sql-server-microsoft-azure-sql-database-microsoft-text-logo-microsoft-azure.png",
   },
   {
     titulo: "Redux",
-    imagen: "https://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png"  
+    imagen: "https://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png",
   },
   {
     titulo: "Figma",
-    imagen: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"  
+    imagen:
+      "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
   },
 ];
-
-

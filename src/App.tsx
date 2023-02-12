@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <Container maxW="1420px" width={"100%"} paddingX={8}>
+    <Container  maxW="1440px" width={"100%"} paddingX={{base: 4, md: 16}} >
       <BrowserRouter>
         <Navbar />
         <Routes>

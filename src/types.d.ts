@@ -4,7 +4,7 @@ export interface ICard {
     imagen: string;
     url: string;
     stack?: object[]
-    enlaces?: string
+    enlaces?: object
 
   }
 
