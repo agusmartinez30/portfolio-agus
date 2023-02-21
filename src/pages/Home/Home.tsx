@@ -12,6 +12,7 @@ import {
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { CARDS_PROJECTS, CARDS_TECHNOLOGIES } from "@base/data/data";
+import img from "../../assets/images/profile.jpg";
 
 export interface HomeInterface {}
 
@@ -28,30 +29,40 @@ const Home: React.FC<HomeInterface> = () => {
       </Box> */}
       <Box height="100%" minHeight={"100vh"}>
         <Box
+          position={"relative"}
+          top="-5px"
+          left="0"
           height="100%"
-          minHeight={"100%"}
+          minHeight={"100vh"}
           display={"flex"}
           flexDirection="column"
           justifyContent={"center"}
-          paddingY={8}
+          gap={4}
         >
-          <Box display={{base: "column", md: "flex"}} justifyContent={"space-between"}>
-            <Text fontSize={{base: "3xl", md: "8xl"}} textTransform="uppercase">
-              Fullstack <br /> Developer
+          <Box
+            display={"flex"}
+            flexDirection={{ base: "column", md: "row" }}
+            justifyContent={"space-between"}
+            alignItems={"center"}
+          >
+            <Text
+              fontSize={{ base: "4xl", md: "8xl" }}
+              textTransform="uppercase"
+            >
+              Frontend <br /> Developer
             </Text>
-            <Image
-              boxSize={"250px"}
-              objectFit="cover"
-              src="https://media.istockphoto.com/id/1351147752/photo/studio-portrait-of-attractive-20-year-old-bearded-man.jpg?s=612x612&w=0&k=20&c=-twL1NKKad6S_EPrGSniewjh6776A0Ju27ExMh7v_kI="
-            />
+            <Image src={img} boxSize={"350px"} objectFit="cover" />
           </Box>
-          <Box display={{base: "column", md: "flex"}}  alignItems={"center"} justifyContent={"space-between"}>
-          <Text fontSize={"2xl"}>
-          Pienso, diseño y desarrollo productos del mañana.
+          <Box
+            display={"flex"}
+            flexDirection={{ base: "column-reverse", md: "row" }}
+            justifyContent={"space-between"}
+            alignItems={{ base: "none", md: "center" }}
+          >
+            <Text fontSize={{ base: "xl", md: "2xl" }}>
+              Impulsado por la creatividad
             </Text>
-            <Text fontSize={{base: "5xl", md: "6xl"}}>
-              Agustin <br /> Martinez
-            </Text>
+            <Text fontSize={{ base: "5xl", md: "6xl" }}>Agustin Martinez</Text>
           </Box>
         </Box>
         <Box
@@ -61,8 +72,13 @@ const Home: React.FC<HomeInterface> = () => {
           justifyContent={"center"}
           paddingY={8}
         >
-          <Box padding={4} borderRadius="md">
-            <Text fontSize="32px" fontWeight={600} color="#34333d">
+          <Box paddingY={4} borderRadius="md">
+            <Text
+              fontSize="32px"
+              fontWeight={600}
+              color="#34333d"
+              textTransform={"uppercase"}
+            >
               Sobre Mi
             </Text>
             <Box
@@ -73,12 +89,13 @@ const Home: React.FC<HomeInterface> = () => {
               justifyContent="space-between"
               alignItems="center"
             >
-              <Box width={{ base: "100%", md: "60%" }}>
-                <Text fontSize="20px" color="black">
-                  Soy Agustin Martinez, tengo +3 años de experiencia en el
-                  desarrollo frontend utilizando React.js. <br />
-                  Tengo conocimientos de UX/UI para crear interfaces empaticas y
-                  humanas.
+              <Box width={{ base: "100%", md: "100%" }} paddingY={6}>
+                <Text fontSize="20px" fontWeight="300" color="black" lineHeight={"1.7rem"}>
+                Me dedico al desarrollo frontend desde 2021. En mi camino me enfrenté a diversos retos, de los cuales aprendí que ser programador no es tarea fácil.
+                  <br />
+                  Como experiencia laboral, he trabajado en una agencia de marketing como desarrollador frontend. Allí diseñé y desarrollé diversos sitios y e-commerce, así como algunas cartas digitales para restaurantes.
+                  <br />
+                  Diariamente estoy aprendiendo y reforzando las tecnologías que me gustan para desarrollar aplicaciones increíbles.
                 </Text>
               </Box>
               {/* <Box
@@ -127,7 +144,7 @@ const Home: React.FC<HomeInterface> = () => {
       </Box>
       <Box paddingY={4}>
         <Text fontSize="32px" fontWeight={600} color="#03001C">
-          Principales proyectos que he creado.
+          Principales proyectos que desarrollé.
         </Text>
         <Grid
           templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}

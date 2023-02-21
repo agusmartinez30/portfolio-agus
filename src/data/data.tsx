@@ -4,10 +4,14 @@ import bgKeyGame from "../assets/images/bgKeyGame.png";
 
 export const CARDS_PROJECTS: Array<ICard> = [
   {
-    titulo: "App del clima",
-    descripcion: "Aplicacion que consume una api de whateveropen",
-    imagen: `${bgClima}`,
-    url: "weather-app",
+    titulo: "Canerest",
+    descripcion: "Aplicacion para buscar las diferentes razas de perros al mejor estilo de pinterest",
+    imagen: "https://wakyma.com/blog/wp-content/uploads/2020/09/por-que-hay-tantas-razas-de-perros-diferentes.jpg",
+    url: "canerest-app",
+    enlaces: {
+      deploy: "https://canerest.netlify.app/",
+      repo: "https://github.com/agusmartinez30/razas",
+    },
     stack: [
       {
         imagen:
@@ -18,7 +22,7 @@ export const CARDS_PROJECTS: Array<ICard> = [
           "https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png",
       },
       {
-        imagen: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png",
       },
       {
         imagen: "https://sweetalert2.github.io/images/SweetAlert2.png",
@@ -57,6 +61,10 @@ export const CARDS_PROJECTS: Array<ICard> = [
     descripcion: "Un aplicacion para conocer todos los personajes",
     imagen: "https://wallpapers.com/images/featured/8rc57d4ds44gqzau.jpg",
     url: "lista-de-tareas",
+    enlaces: {
+      deploy: "https://ripi.netlify.app/",
+      repo: "https://github.com/agusmartinez30/context-rick-morty",
+    },
     stack: [
       {
         imagen:
@@ -182,8 +190,8 @@ export const CARDS_TECHNOLOGIES: Array<ITechnologies> = [
       "https://w7.pngwing.com/pngs/170/924/png-transparent-microsoft-sql-server-microsoft-azure-sql-database-microsoft-text-logo-microsoft-azure.png",
   },
   {
-    titulo: "Redux",
-    imagen: "https://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png",
+    titulo: "Tailwind CSS",
+    imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png",
   },
   {
     titulo: "Figma",
