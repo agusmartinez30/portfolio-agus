@@ -47,7 +47,7 @@ const Projects: React.FC<ProjectsInterface> = () => {
               placeContent={"flex-end"}
               justifyContent="center"
               bgImage={card.imagen}
-              backgroundPosition="centrer"
+              backgroundPosition="center"
               backgroundRepeat="no-repeat"
               backgroundSize={"cover"}
               borderRadius="xl"

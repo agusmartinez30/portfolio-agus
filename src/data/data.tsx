@@ -28,6 +28,8 @@ export const CARDS_PROJECTS: Array<ICard> = [
         imagen: "https://sweetalert2.github.io/images/SweetAlert2.png",
       },
     ],
+    rowspan: 1,
+    colspan: 1
   },
   {
     titulo: "Keygame",
@@ -55,6 +57,8 @@ export const CARDS_PROJECTS: Array<ICard> = [
         imagen: "https://sweetalert2.github.io/images/SweetAlert2.png",
       },
     ],
+    rowspan: 0,
+    colspan: 3
   },
   {
     titulo: "Rick and Morty app",
@@ -62,7 +66,7 @@ export const CARDS_PROJECTS: Array<ICard> = [
     imagen: "https://wallpapers.com/images/featured/8rc57d4ds44gqzau.jpg",
     url: "lista-de-tareas",
     enlaces: {
-      deploy: "https://ripi.netlify.app/",
+      deploy: "https://context-rick-morty.vercel.app/",
       repo: "https://github.com/agusmartinez30/context-rick-morty",
     },
     stack: [
@@ -81,12 +85,71 @@ export const CARDS_PROJECTS: Array<ICard> = [
         imagen: "https://sweetalert2.github.io/images/SweetAlert2.png",
       },
     ],
+    rowspan: 2,
+    colspan: 1
+  },
+  {
+    titulo: "Rocknet",
+    descripcion: "Radio web que sintoniza canciones de rock.",
+    imagen: 'https://static.vecteezy.com/system/resources/previews/002/972/281/original/symbol-of-rock-n-roll-concept-art-of-rock-music-in-monochrome-style-vector.jpg',
+    url: "rocknet",
+    enlaces: {
+      deploy: "https://rocknet.netlify.app/",
+      repo: "https://github.com/agusmartinez30/razas",
+    },
+    stack: [
+      {
+        imagen:
+          "https://cdn-icons-png.flaticon.com/512/174/174854.png",
+      },
+      {
+        imagen:
+          "https://cdn.cdnlogo.com/logos/c/18/css.svg",
+      },
+      {
+        imagen: "https://i.pinimg.com/originals/38/4d/1e/384d1e8c3c8dcfee10ab0b980f8075cd.png",
+      },
+      {
+        imagen: "https://cdn-icons-png.flaticon.com/512/3621/3621476.png",
+      },
+    ],
+    rowspan: 0,
+    colspan: 2
+  },
+  {
+    titulo: "Whours",
+    descripcion: "Es una aplicación con el objetivo de calcular cuantas horas trabajaste",
+    imagen: 'https://tecnologialatam.com/wp-content/uploads/2021/03/apple-watch-negro-img1.jpeg',
+    url: "whours",
+    enlaces: {
+      deploy: "https://whour.netlify.app/",
+      repo: "https://github.com/agusmartinez30/razas",
+    },
+    stack: [
+      {
+        imagen:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+      },
+      {
+        imagen:
+          "https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png",
+      },
+      {
+        imagen: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
+      },
+    ],
+    rowspan: 0,
+    colspan: 2
   },
   {
     titulo: "Pelix",
-    descripcion: "Aplicacion que consume una api de movieDB",
-    imagen: `${bgClima}`,
+    descripcion: "Aplicacion que muestra los ultimos estrenos",
+    imagen: 'https://www.gannett-cdn.com/-mm-/68f9674e5c2712a775dc097739065b28b38498fd/c=0-73-1271-791/local/-/media/2018/07/06/Phoenix/Phoenix/636665025413329805-kanopy.png?width=1200&disable=upscale&format=pjpg&auto=webp',
     url: "pelix",
+    enlaces: {
+      deploy: "https://peflix.netlify.app/",
+      repo: "https://github.com/agusmartinez30/razas",
+    },
     stack: [
       {
         imagen:
@@ -103,50 +166,8 @@ export const CARDS_PROJECTS: Array<ICard> = [
         imagen: "https://sweetalert2.github.io/images/SweetAlert2.png",
       },
     ],
-  },
-  {
-    titulo: "Rick and Morty APP",
-    descripcion: "Aplicacion que consume una api de rickandmorty",
-    imagen: `${bgClima}`,
-    url: "rickandmorty",
-    stack: [
-      {
-        imagen:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
-      },
-      {
-        imagen:
-          "https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png",
-      },
-      {
-        imagen: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
-      },
-      {
-        imagen: "https://sweetalert2.github.io/images/SweetAlert2.png",
-      },
-    ],
-  },
-  {
-    titulo: "BackAR",
-    descripcion: "Aplicacion que consume una api de whateveropen",
-    imagen: `${bgClima}`,
-    url: "backar",
-    stack: [
-      {
-        imagen:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
-      },
-      {
-        imagen:
-          "https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png",
-      },
-      {
-        imagen: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
-      },
-      {
-        imagen: "https://sweetalert2.github.io/images/SweetAlert2.png",
-      },
-    ],
+    rowspan: 0,
+    colspan: 2
   },
 ];
 

@@ -5,6 +5,8 @@ export interface ICard {
     url: string;
     stack?: object[]
     enlaces?: object
+    rowspan?: number
+    colspan?: number
 
   }
 
