@@ -36,9 +36,10 @@ const Home = () => {
         paddingY={6}
       >
         <Text
-          fontSize={{ base: "4xl", md: "6em" }}
+          fontSize={{ base: "6xl", md: "6em" }}
           fontWeight={900}
           textTransform="capitalize"
+          fontFamily={'Poppins'}
         
         >
           Agustín Martinez
@@ -76,14 +77,14 @@ const Home = () => {
 
 
       </Container >
-      <Container maxW={"100%"} padding={0} bgColor={"#CFEFF2"}>
+      <Container maxW={"100%"} padding={2} bgColor={"#CFEFF2"}>
         <Box
           maxW='960px'
           margin="0 auto"
           paddingY={6}
           
         >
-          <Text fontSize="32px" fontWeight={600} color={"blackAlpha.900"}>
+          <Text fontSize="32px" fontWeight={400} color={"blackAlpha.900"} fontFamily={'Poppins'}>
             Principales proyectos que desarrollé.
           </Text>
 

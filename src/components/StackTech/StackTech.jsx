@@ -25,14 +25,11 @@ function StackTech() {
       image: 'https://raw.githubusercontent.com/github/explore/e4270e345b968ae626310bc86e339a2ae80c6ae4/topics/ecmascript/ecmascript.png',
       title: 'js-logo'
     },
-    {
-      image: 'https://martinacosta.vercel.app/assets/nextjs.png',
-      title: 'next-js-logo'
-    },
+   
   ]
 
   return (
-    <Box width={"450px"} display={"flex"} justifyContent={"space-between"} padding={2}  >
+    <Box width={{ base: "100%", md: "440px" }} display={"flex"} flexDirection={"row"} flexWrap={"wrap"} justifyContent={"space-between"} paddingY={2}  >
 
       {
         MAIN_TECH.map((card) => (
