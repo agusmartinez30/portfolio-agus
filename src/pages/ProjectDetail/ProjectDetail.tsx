@@ -1,14 +1,14 @@
 import { CARDS_PROJECTS } from "@base/data/data";
-import { Box, Button, Container, Image, Text } from "@chakra-ui/react";
+import { Box, Button, Container, Heading, Image, Text } from "@chakra-ui/react";
 import { calcLength } from "framer-motion";
 import React, { useEffect, useState } from "react";
-import { NavLink, useParams } from "react-router-dom";
+import { NavLink, useParams, useNavigate } from "react-router-dom";
 export interface ProjectDetailInterface {}
 
 const ProjectDetail: React.FC<ProjectDetailInterface> = () => {
   const [technologies, setTechnologies] = useState([]);
-
   const { key } = useParams();
+  const navigate = useNavigate()
 
   const oneProject: any = CARDS_PROJECTS.find(
     (project) => project.url == String(`${key}`)
@@ -23,17 +23,22 @@ const ProjectDetail: React.FC<ProjectDetailInterface> = () => {
   return (
     <>
       <Container
-        maxW="100%"
-        height="calc(100vh - 60px)"
+        position={"relative"}
+        maxW="990px"
+        height={"100%"}
+        minH={"100vh"}
         display={"grid"}
         placeItems="center"
         paddingY={4}
       >
-        <Box paddingY={4}  >
-          <Text fontSize="36px" fontWeight={600}>
-            {oneProject.titulo}
-          </Text>
+        <Box w={"100%"} position={"relative"} top={0} left={0}>
+          <Button onClick={() => {navigate('/')}}>
+            <ArrowLeft />
+          </Button>
         </Box>
+        <Heading fontSize="42px" fontWeight={600} paddingY={4} fontFamily={'Poppins'}>
+          {oneProject.titulo}
+        </Heading>
         <Box
           display={"flex"}
           flexDirection={{ base: "column-reverse", md: "row" }}
@@ -92,14 +97,34 @@ const ProjectDetail: React.FC<ProjectDetailInterface> = () => {
           <Image
             src={oneProject.imagen}
             alt={oneProject?.titulo}
-            width="350px"
-            height={"400px"}
+            width="460px"
+            height={"450px"}
             objectFit="cover"
             borderRadius="md"
           />
         </Box>
       </Container>
     </>
+  );
+};
+
+const ArrowLeft: any = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="icon icon-tabler icon-tabler-chevron-left"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="#597e8d"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <polyline points="15 6 9 12 15 18" />
+    </svg>
   );
 };
 

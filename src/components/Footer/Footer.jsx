@@ -3,9 +3,9 @@ import React from 'react';
 
 const Footer = () => {
 	return (
-		<Container maxW={"100%"} bgColor={"blackAlpha.900"} paddingY={12}>
+		<Container maxW={"100%"} bgColor={"blackAlpha.900"} paddingY={6}>
 			<Box maxW={"960px"} margin={"0 auto"} display={"flex"} justifyContent={"space-between"} alignItems={"center"} gap={8}>
-				<Text fontSize={"22px"} color={"gray.200"}>© 2023 Agustín Martinez</Text>
+				<Text fontSize={{base:"16px", md: "26px"}} color={"gray.200"}>© 2023 Agustín Martinez</Text>
 				<Box as="ul" display="flex" listStyleType={"none"} gap={4}>
 					<Box
 						as="li"

@@ -40,7 +40,7 @@ const Home = () => {
           fontWeight={900}
           textTransform="capitalize"
           fontFamily={'Poppins'}
-        
+
         >
           Agustín Martinez
         </Text>
@@ -82,7 +82,7 @@ const Home = () => {
           maxW='960px'
           margin="0 auto"
           paddingY={6}
-          
+
         >
           <Text fontSize="32px" fontWeight={400} color={"blackAlpha.900"} fontFamily={'Poppins'}>
             Principales proyectos que desarrollé.
@@ -105,21 +105,24 @@ const Home = () => {
                     placeContent={"flex-end"}
                     justifyContent="center"
                     bgImage={card.imagen}
-                    backgroundPosition="centrer"
+                    backgroundPosition="center"
                     backgroundRepeat="no-repeat"
                     backgroundSize={"cover"}
                     borderRadius="xl"
                   >
-                    <Box bg={"rgba(0,0,0,0.6)"} borderRadius="9px">
+                    <Box height={"200px"} bg={"rgba(0,0,0,0.6)"} borderRadius="9px">
                       <CardHeader>
                         <Heading fontSize={"32px"} color={"white"}>
                           {card.titulo}
                         </Heading>
                       </CardHeader>
                       <CardBody>
-                        <Text fontSize={"18px"} color={"white"}>
-                          {card.descripcion}
-                        </Text>
+                        <Box width={"100%"} height={"60px"} textOverflow={"ellipsis"} overflow={"hidden"}>
+                          <Text fontSize={"18px"} color={"white"}>
+                            {card.descripcion}
+                          </Text>
+                        </Box>
+
                       </CardBody>
                     </Box>
                   </Card>

@@ -62,7 +62,7 @@ export const CARDS_PROJECTS: Array<ICard> = [
   },
   {
     titulo: "Rick and Morty app",
-    descripcion: "Un aplicacion para conocer todos los personajes",
+    descripcion: "Esta aplicación consume la API de Rick and Morty. Tenemos un buscador para poder buscar cada personaje de la serie",
     imagen: "https://wallpapers.com/images/featured/8rc57d4ds44gqzau.jpg",
     url: "lista-de-tareas",
     enlaces: {
@@ -89,37 +89,9 @@ export const CARDS_PROJECTS: Array<ICard> = [
     colspan: 1
   },
   {
-    titulo: "Rocknet",
-    descripcion: "Radio web que sintoniza canciones de rock.",
-    imagen: 'https://static.vecteezy.com/system/resources/previews/002/972/281/original/symbol-of-rock-n-roll-concept-art-of-rock-music-in-monochrome-style-vector.jpg',
-    url: "rocknet",
-    enlaces: {
-      deploy: "https://rocknet.netlify.app/",
-      repo: "https://github.com/agusmartinez30/razas",
-    },
-    stack: [
-      {
-        imagen:
-          "https://cdn-icons-png.flaticon.com/512/174/174854.png",
-      },
-      {
-        imagen:
-          "https://cdn.cdnlogo.com/logos/c/18/css.svg",
-      },
-      {
-        imagen: "https://i.pinimg.com/originals/38/4d/1e/384d1e8c3c8dcfee10ab0b980f8075cd.png",
-      },
-      {
-        imagen: "https://cdn-icons-png.flaticon.com/512/3621/3621476.png",
-      },
-    ],
-    rowspan: 0,
-    colspan: 2
-  },
-  {
     titulo: "Whours",
     descripcion: "Es una aplicación con el objetivo de calcular cuantas horas trabajaste",
-    imagen: 'https://tecnologialatam.com/wp-content/uploads/2021/03/apple-watch-negro-img1.jpeg',
+    imagen: 'https://plus.unsplash.com/premium_photo-1677160318655-e535d1692c7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80',
     url: "whours",
     enlaces: {
       deploy: "https://whour.netlify.app/",
@@ -142,9 +114,37 @@ export const CARDS_PROJECTS: Array<ICard> = [
     colspan: 2
   },
   {
+    titulo: "Time Mater",
+    descripcion: "Aplicacion de lista de tareas",
+    imagen: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80',
+    url: "todolist",
+    enlaces: {
+      deploy: "https://timetamer.vercel.app/",
+      repo: "https://github.com/agusmartinez30/razas",
+    },
+    stack: [
+      {
+        imagen:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+      },
+      {
+        imagen:
+          "https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png",
+      },
+      {
+        imagen: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
+      },
+      {
+        imagen: "https://sweetalert2.github.io/images/SweetAlert2.png",
+      },
+    ],
+    rowspan: 0,
+    colspan: 2
+  },
+  {
     titulo: "Pelix",
     descripcion: "Aplicacion que muestra los ultimos estrenos",
-    imagen: 'https://www.gannett-cdn.com/-mm-/68f9674e5c2712a775dc097739065b28b38498fd/c=0-73-1271-791/local/-/media/2018/07/06/Phoenix/Phoenix/636665025413329805-kanopy.png?width=1200&disable=upscale&format=pjpg&auto=webp',
+    imagen: 'https://images.unsplash.com/photo-1615986201152-7686a4867f30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80',
     url: "pelix",
     enlaces: {
       deploy: "https://peflix.netlify.app/",
@@ -166,8 +166,6 @@ export const CARDS_PROJECTS: Array<ICard> = [
         imagen: "https://sweetalert2.github.io/images/SweetAlert2.png",
       },
     ],
-    rowspan: 0,
-    colspan: 2
   },
 ];
 
