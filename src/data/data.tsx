@@ -4,22 +4,18 @@ import bgKeyGame from "../assets/images/bgKeyGame.png";
 
 export const CARDS_PROJECTS: Array<ICard> = [
   {
-    titulo: "Canerest",
-    descripcion: "Aplicacion para buscar las diferentes razas de perros al mejor estilo de pinterest",
+    titulo: "Dogerest",
+    descripcion: "Aplicacion para buscar las diferentes razas de perros al mejor estilo de pinterest. Ademas puedes agregar a los perritos que mas te gusten a la sección de favoritos.",
     imagen: "https://wakyma.com/blog/wp-content/uploads/2020/09/por-que-hay-tantas-razas-de-perros-diferentes.jpg",
     url: "canerest-app",
     enlaces: {
-      deploy: "https://canerest.netlify.app/",
+      deploy: "https://dogerest.vercel.app/",
       repo: "https://github.com/agusmartinez30/razas",
     },
     stack: [
       {
         imagen:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
-      },
-      {
-        imagen:
-          "https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png",
       },
       {
         imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png",

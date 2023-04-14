@@ -110,9 +110,9 @@ const Home = () => {
                     backgroundSize={"cover"}
                     borderRadius="xl"
                   >
-                    <Box height={"200px"} bg={"rgba(0,0,0,0.6)"} borderRadius="9px">
+                    <Box width={"100%"} height={"200px"} bg={"rgba(0,0,0,0.8)"} borderRadius="9px">
                       <CardHeader>
-                        <Heading fontSize={"32px"} color={"white"}>
+                        <Heading fontSize={"24px"} color={"white"}>
                           {card.titulo}
                         </Heading>
                       </CardHeader>

@@ -1,6 +1,6 @@
 import { Container } from "@chakra-ui/react";
 
-import { Home, ProjectDetail, Projects } from "./pages";
+import { Home, ProjectDetail } from "./pages";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -13,7 +13,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/projects" element={<Projects />}></Route>
           <Route path="/projects/:key" element={<ProjectDetail />}></Route>
         </Routes>
       </BrowserRouter>
