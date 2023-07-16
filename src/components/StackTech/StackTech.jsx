@@ -6,24 +6,24 @@ function StackTech() {
 
   const MAIN_TECH = [
     {
-      image: 'https://martinacosta.vercel.app/assets/chakraui.png',
-      title: 'chakra-ui-logo'
+      image: 'https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png',
+      title: 'node-js-logo'
+    },
+    {
+      image: "https://cdn.iconscout.com/icon/free/png-256/free-mongodb-3629020-3030245.png",
+      title: 'mongo-db-logo'
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
       title: 'react-js-logo'
     },
     {
-      image: "https://martinacosta.vercel.app/assets/css.png",
-      title: 'css-logo'
-    },
-    {
       image: 'https://cdn.worldvectorlogo.com/logos/typescript-2.svg',
       title: 'typescript-logo'
     },
     {
-      image: 'https://raw.githubusercontent.com/github/explore/e4270e345b968ae626310bc86e339a2ae80c6ae4/topics/ecmascript/ecmascript.png',
-      title: 'js-logo'
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/640px-Angular_full_color_logo.svg.png',
+      title: 'angular-js-logo'
     },
    
   ]

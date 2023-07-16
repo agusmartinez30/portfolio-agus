@@ -34,13 +34,14 @@ const Home = () => {
         flexDirection={"column"}
         justifyContent={"start"}
         paddingY={6}
+        bg={'#fff'}
       >
         <Text
           fontSize={{ base: "6xl", md: "6em" }}
           fontWeight={900}
           textTransform="capitalize"
           fontFamily={'Poppins'}
-
+          color={'#000'}
         >
           Agustín Martinez
         </Text>
@@ -55,29 +56,17 @@ const Home = () => {
             _hover={{ bgColor: "#CFEFF2", color: "#000" }}
             color={"#fff"}
           >
-            👩‍💻 Frontend Developer
+            👩‍💻 Fullstack Developer
           </Tag>
         </Box>
         <Box >
-          <Text fontSize={"1.6rem"} paddingY={4}>
-            Me dedico al desarrollo frontend desde 2021. En mi camino me
-            enfrenté a diversos retos, de los cuales aprendí que ser
-            programador no es tarea fácil.
-            <br />
-            Diariamente estoy aprendiendo y reforzando las tecnologías que
-            me gustan para desarrollar aplicaciones increíbles.
+          <Text fontSize={"1.6rem"} paddingY={4} color={'#000'} >
+          Desde 2021, comencé mi carrera como desarrollador y desde entonces me he enfrentado diversos retos que me han enseñado la importancia de la perseverancia en esta tarea. Cada día, busco aprender y fortalecer mis habilidades para crear aplicaciones impresionantes. Estoy emocionado/a por el futuro y me mantengo abierto/a a nuevas oportunidades de aprendizaje. Mi pasión por el desarrollo es cada vez mayor, y estoy listo/a para seguir creciendo y contribuyendo al emocionante mundo de la tecnología. ¡Sigamos construyendo un futuro tecnológico increíble juntos!
           </Text>
           <StackTech />
-
         </Box>
-
-
-
-
-
-
       </Container >
-      <Container maxW={"100%"} padding={2} bgColor={"#CFEFF2"}>
+      <Container maxW={"100%"} padding={2}>
         <Box
           maxW='960px'
           margin="0 auto"

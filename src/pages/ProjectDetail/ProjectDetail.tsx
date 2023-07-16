@@ -32,11 +32,11 @@ const ProjectDetail: React.FC<ProjectDetailInterface> = () => {
         paddingY={4}
       >
         <Box w={"100%"} position={"relative"} top={0} left={0}>
-          <Button onClick={() => {navigate('/')}}>
+          <Button colorScheme='teal' variant='outline' onClick={() => {navigate('/')}}>
             <ArrowLeft />
           </Button>
         </Box>
-        <Heading fontSize="42px" fontWeight={600} paddingY={4} fontFamily={'Poppins'}>
+        <Heading color={"#000"} fontSize="42px" fontWeight={600} paddingY={4} fontFamily={'Poppins'}>
           {oneProject.titulo}
         </Heading>
         <Box
@@ -51,7 +51,7 @@ const ProjectDetail: React.FC<ProjectDetailInterface> = () => {
             flexDirection="column"
             justifyContent={"space-between"}
           >
-            <Text fontSize="26px">{oneProject.descripcion}</Text>
+            <Text color={"#000"} fontSize="22px">{oneProject.descripcion}</Text>
             <Box
               as="ul"
               display={"flex"}
@@ -61,12 +61,12 @@ const ProjectDetail: React.FC<ProjectDetailInterface> = () => {
             >
               <li>
                 <a href={oneProject.enlaces?.repo} target="_blank">
-                  <Button>Repositorio</Button>
+                  <Button  colorScheme='teal' variant='outline'>Repositorio</Button>
                 </a>
               </li>
               <li>
                 <a href={oneProject.enlaces?.deploy} target="_blank">
-                  <Button>Deploy</Button>
+                  <Button colorScheme='teal' variant='outline'>Deploy</Button>
                 </a>
               </li>
             </Box>

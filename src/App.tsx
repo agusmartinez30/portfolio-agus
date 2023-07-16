@@ -9,7 +9,9 @@ import { Footer } from "@components/Footer";
 
 function App() {
   return (
-    <Container maxW="100%" width={"100%"} padding={0}>
+
+    <>
+    <Container maxW="100%" width={"100%"} padding={0} bg={'#fff'} >
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>
@@ -18,7 +20,8 @@ function App() {
       </BrowserRouter>
       <Footer />
     </Container>
-  );
+    </>
+  )
 }
 
 export default App;
