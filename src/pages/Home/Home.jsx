@@ -43,7 +43,7 @@ const Home = () => {
           fontFamily={'Poppins'}
           color={'#000'}
         >
-          Agustín Martinez
+          Agustín Martínez
         </Text>
 
         <Box paddingY={4}>
@@ -98,17 +98,19 @@ const Home = () => {
                     backgroundRepeat="no-repeat"
                     backgroundSize={"cover"}
                     borderRadius="xl"
+                    transition="transform 0.3s ease"
+                    _hover={{ transform: "scale(1.1)"}}
                   >
                     <Box width={"100%"} height={"200px"} bg={"rgba(0,0,0,0.8)"} borderRadius="9px">
                       <CardHeader>
-                        <Heading fontSize={"24px"} color={"white"}>
+                        <Heading fontSize={"24px"} color={"white"}  fontFamily={'Poppins'}>
                           {card.titulo}
                         </Heading>
                       </CardHeader>
                       <CardBody>
                         <Box width={"100%"} height={"60px"} textOverflow={"ellipsis"} overflow={"hidden"}>
-                          <Text fontSize={"18px"} color={"white"}>
-                            {card.descripcion}
+                          <Text fontSize={"18px"} color={"white"} >
+                            {card.descripcion}...
                           </Text>
                         </Box>
 

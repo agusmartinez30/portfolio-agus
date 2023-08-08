@@ -5,7 +5,7 @@ import bgKeyGame from "../assets/images/bgKeyGame.png";
 export const CARDS_PROJECTS: Array<ICard> = [
   {
     titulo: "Dogerest",
-    descripcion: "Aplicacion para buscar las diferentes razas de perros al mejor estilo de pinterest. Ademas puedes agregar a los perritos que mas te gusten a la sección de favoritos.",
+    descripcion: "Explora una variedad de razas de perros con el encanto distintivo de Pinterest. Además, tienes la opción de añadir tus perritos favoritos a la sección de favoritos.",
     imagen: "https://wakyma.com/blog/wp-content/uploads/2020/09/por-que-hay-tantas-razas-de-perros-diferentes.jpg",
     url: "canerest-app",
     enlaces: {
@@ -31,7 +31,7 @@ export const CARDS_PROJECTS: Array<ICard> = [
     titulo: "Keygame",
     imagen: `${bgKeyGame}`,
     descripcion:
-      "Este es un juego que consiste en adivinar la llave ganadora :D ",
+      "Sumérgete en este emocionante juego de adivinanzas, cuyo objetivo es descubrir la llave ganadora. ¡Prepárate para la diversión y el desafío! :D ",
     url: "keymaster",
     enlaces: {
       deploy: "https://keyter.netlify.app/",
@@ -58,7 +58,7 @@ export const CARDS_PROJECTS: Array<ICard> = [
   },
   {
     titulo: "Rick and Morty app",
-    descripcion: "Esta aplicación consume la API de Rick and Morty. Tenemos un buscador para poder buscar cada personaje de la serie",
+    descripcion: "Explora esta emocionante aplicación que se conecta con la API de Rick and Morty. Descubre a tus personajes favoritos de la serie utilizando nuestro práctico buscador integrado.",
     imagen: "https://wallpapers.com/images/featured/8rc57d4ds44gqzau.jpg",
     url: "lista-de-tareas",
     enlaces: {
@@ -86,7 +86,7 @@ export const CARDS_PROJECTS: Array<ICard> = [
   },
   {
     titulo: "Whours",
-    descripcion: "Es una aplicación con el objetivo de calcular cuantas horas trabajaste",
+    descripcion: "Una aplicación diseñada para calcular de manera eficiente las horas de trabajo que has dedicado. Mantén un registro preciso y simplificado de tus horas laborales con esta herramienta útil.",
     imagen: 'https://plus.unsplash.com/premium_photo-1677160318655-e535d1692c7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80',
     url: "whours",
     enlaces: {
@@ -111,7 +111,7 @@ export const CARDS_PROJECTS: Array<ICard> = [
   },
   {
     titulo: "Time Mater",
-    descripcion: "Aplicacion de lista de tareas",
+    descripcion: "Organiza tu vida de manera efectiva con nuestra aplicación de lista de tareas. Gestiona tus pendientes de manera sencilla y mantén un control claro y estructurado de tus actividades diarias.",
     imagen: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80',
     url: "todolist",
     enlaces: {
@@ -139,7 +139,7 @@ export const CARDS_PROJECTS: Array<ICard> = [
   },
   {
     titulo: "Pelix",
-    descripcion: "Aplicacion que muestra los ultimos estrenos",
+    descripcion: "Descubre lo último en entretenimiento con nuestra aplicación que presenta los estrenos más recientes. Mantente al día con las películas y series más novedosas en el mundo del cine y la televisión.",
     imagen: 'https://images.unsplash.com/photo-1615986201152-7686a4867f30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80',
     url: "pelix",
     enlaces: {
