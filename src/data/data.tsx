@@ -138,6 +138,47 @@ export const CARDS_PROJECTS: Array<ICard> = [
     colspan: 2
   },
   {
+    titulo: "Apartamentos Anahí",
+    descripcion: "¡Bienvenido! Somos una empresa especializada en el alquiler de departamentos de alta calidad. Nuestra misión es proporcionar a nuestros clientes soluciones de vivienda flexibles y sin complicaciones que satisfagan todas sus necesidades. Ofrecemos una amplia variedad de opciones de alojamiento para adaptarnos a diferentes grupos de clientes, desde familias hasta profesionales y viajeros frecuentes.",
+    imagen: 'https://static1.sosiva451.com/1680748/849f838c-7a98-4e4a-8ba6-9455c5643162_u_medium.jpg',
+    url: "anahi",
+    enlaces: {
+      deploy: "https://anahiapartamentos.vercel.app/",
+      repo: "https://github.com/agusmartinez30/apartementosanahiweb",
+    },
+    stack: [
+      {
+        imagen:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+      },
+      {
+        imagen: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
+      },
+      {
+        imagen: "https://avatars.githubusercontent.com/u/20658825?s=200&v=4",
+      },
+    ],
+  },
+  {
+    titulo: "MyGym 💪",
+    descripcion: "Te presentamos nuestra innovadora Landing Page para el gimnasio MyGym. Diseñada para transmitir energía y motivación, nuestra Landing Page es una ventana al mundo de la salud y el fitness. Descubre un espacio donde la pasión por el entrenamiento se une a instalaciones de vanguardia y entrenadores dedicados. Desde clases de alto impacto hasta sesiones de relajación, todo está a un clic de distancia. Únete a nosotros en línea y da el primer paso hacia una versión más activa y saludable de ti mismo. Tu viaje hacia el bienestar comienza aquí.",
+    imagen: 'https://mercadofitness.com/ar/wp-content/uploads/2019/11/Bio-Ritmo-abri%C3%B3-Tonus-Gym-su-cuarto-micro-gimnasio.jpg',
+    url: "gym",
+    enlaces: {
+      deploy: "https://mygymtest.vercel.app/",
+      repo: "https://github.com/agusmartinez30/shaka",
+    },
+    stack: [
+      {
+        imagen:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+      },
+      {
+        imagen: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
+      },
+    ],
+  },
+  {
     titulo: "Pelix",
     descripcion: "Descubre lo último en entretenimiento con nuestra aplicación que presenta los estrenos más recientes. Mantente al día con las películas y series más novedosas en el mundo del cine y la televisión.",
     imagen: 'https://images.unsplash.com/photo-1615986201152-7686a4867f30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80',

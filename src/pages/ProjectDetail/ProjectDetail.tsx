@@ -72,7 +72,7 @@ const ProjectDetail: React.FC<ProjectDetailInterface> = () => {
             </Box>
 
             <Box>
-              <Text fontSize="26px">Tecnologias Utilizadas</Text>
+              <Text color={"black"} fontSize="26px">Tecnologias Utilizadas</Text>
               <Box
                 as="ul"
                 display={"flex"}

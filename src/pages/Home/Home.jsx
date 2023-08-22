@@ -61,7 +61,7 @@ const Home = () => {
         </Box>
         <Box >
           <Text fontSize={"1.6rem"} paddingY={4} color={'#000'} >
-          Desde 2021, comencé mi carrera como desarrollador y desde entonces me he enfrentado diversos retos que me han enseñado la importancia de la perseverancia en esta tarea. Cada día, busco aprender y fortalecer mis habilidades para crear aplicaciones impresionantes. Estoy emocionado/a por el futuro y me mantengo abierto/a a nuevas oportunidades de aprendizaje. Mi pasión por el desarrollo es cada vez mayor, y estoy listo/a para seguir creciendo y contribuyendo al emocionante mundo de la tecnología. ¡Sigamos construyendo un futuro tecnológico increíble juntos!
+            Desde 2021, comencé mi carrera como desarrollador y desde entonces me he enfrentado diversos retos que me han enseñado la importancia de la perseverancia en esta tarea. Cada día, busco aprender y fortalecer mis habilidades para crear aplicaciones impresionantes. Estoy emocionado/a por el futuro y me mantengo abierto/a a nuevas oportunidades de aprendizaje. Mi pasión por el desarrollo es cada vez mayor, y estoy listo/a para seguir creciendo y contribuyendo al emocionante mundo de la tecnología. ¡Sigamos construyendo un futuro tecnológico increíble juntos!
           </Text>
           <StackTech />
         </Box>
@@ -99,11 +99,12 @@ const Home = () => {
                     backgroundSize={"cover"}
                     borderRadius="xl"
                     transition="transform 0.3s ease"
-                    _hover={{ transform: "scale(1.1)"}}
+                    filter={{ base: 'grayscale(0)', md: 'grayscale(100%)' }}
+                    _hover={{ filter: 'grayscale(0)' }}
                   >
                     <Box width={"100%"} height={"200px"} bg={"rgba(0,0,0,0.8)"} borderRadius="9px">
                       <CardHeader>
-                        <Heading fontSize={"24px"} color={"white"}  fontFamily={'Poppins'}>
+                        <Heading fontSize={"24px"} color={"white"} fontFamily={'Poppins'}>
                           {card.titulo}
                         </Heading>
                       </CardHeader>
